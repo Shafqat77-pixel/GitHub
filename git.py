@@ -26,12 +26,25 @@
 
 
 #m3
-import json
-with open("test.json") as ptr:
-    data=json.load(ptr)
-    new=[]
-    for son in data["branches"]:
-        new.append(son["students"])
-print(f"Branches da {len(new)}-ta Student bor \nBular")
-for i in new:
-    print(i)
+# import json
+# with open("test.json") as ptr:
+#     data=json.load(ptr)
+#     new=[]
+#     for son in data["branches"]:
+#         new.append(son["students"])
+# print(f"Branches da {len(new)}-ta Student bor \nBular")
+# for i in new:
+#     print(i)
+
+
+
+
+#m4
+# import json
+# with open("test.json") as ptr:
+#     data=json.load(ptr)
+#     new=[]
+#     for pay in data["branches"]:
+#         for i in pay["students"]:
+#             new.append(i)
+# print(max(new,key=lambda x:x["payment"]))

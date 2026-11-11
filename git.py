@@ -97,3 +97,21 @@
 
 #     if python_bormi:
 #         print(branch["name"]) 
+
+
+
+
+
+
+#uyish1
+# nums=[2,2, 1, 1, 1, 2, 2]
+# new={}
+# for i in nums:
+#     if i in new:
+#         new[i]+=1
+#     else:
+#         new[i]=1
+# a=max(new.values())
+# for key,value in new.items():
+#     if a==value:
+#         print(key)

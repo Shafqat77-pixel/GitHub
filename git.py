@@ -149,18 +149,36 @@
 
 
 #uyishi4
-products = [
-    ('Olma', '12000', '50'),
-    ('Banan', '8000', '100'),
-    ('Gilos', '15000', '70'),
-    ('Apelsin', '9000', '80'),
-    ('Anor', '30000', '20'),
-    ('Uzum', '20000', '40'),
-    ('Tarvuz', '25000', '15'),
-    ('Shaftoli', '18000', '60'),
-    ('Qovun', '40000', '25'),
-    ('Qulupnay', '35000', '10')
-]
-sorted_by_price=sorted(products,key=lambda x:int(x[1]),reverse=True)
-for i in sorted_by_price:
-    print(i)
+# products = [
+#     ('Olma', '12000', '50'),
+#     ('Banan', '8000', '100'),
+#     ('Gilos', '15000', '70'),
+#     ('Apelsin', '9000', '80'),
+#     ('Anor', '30000', '20'),
+#     ('Uzum', '20000', '40'),
+#     ('Tarvuz', '25000', '15'),
+#     ('Shaftoli', '18000', '60'),
+#     ('Qovun', '40000', '25'),
+#     ('Qulupnay', '35000', '10')
+# ]
+# sorted_by_price=sorted(products,key=lambda x:int(x[1]),reverse=True)
+# for i in sorted_by_price:
+#     print(i)
+
+
+
+
+
+#uyishi5
+input=("23 oquvchidan 3 tasi 5 baxo oldi")
+lst=[]
+for i in input.split(" "):
+    if i.isdigit():
+        lst.append(int(i))
+
+sort=sorted(lst)
+if sort==lst:
+    lst=True
+else:
+    lst=False
+print(lst)

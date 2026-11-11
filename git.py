@@ -48,3 +48,16 @@
 #         for i in pay["students"]:
 #             new.append(i)
 # print(max(new,key=lambda x:x["payment"]))
+
+
+
+
+#m5
+# import json
+# with open("test.json") as ptr:
+#     data=json.load(ptr)
+#     new=[]
+#     for pay in data["branches"]:
+#         for i in pay["students"]:
+#             new.append(i["payment"])
+# print(f"Barcha oquvchilarni jami paymenti: {sum(new)}")

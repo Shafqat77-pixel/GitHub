@@ -134,3 +134,12 @@
 #         lst.append(janr)
 # print(lst)
 
+
+
+
+
+#uyishi3
+active_users = ['U1001', 'U1002', 'U1003', 'U1004', 'U1001'] 
+new_users = ['U1003', 'U1005', 'U1006', 'U1002', 'U1007']
+new=active_users+new_users
+print(sorted(set(new)))

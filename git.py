@@ -73,3 +73,27 @@
 #         for i in tajriba["teachers"]:
 #             if i["experience"]>5:
 #                 print(i)
+
+
+
+
+# #m7
+# import json
+# with open("test.json") as ptr:
+#     data=json.load(ptr)
+#     print("Python yo'nalishi mavjud filiallar:")
+
+# for branch in data["branches"]:
+#     python_bormi = False  
+#     for i in branch["students"]:
+#         if i["course"]=="Python":
+#             python_bormi=True
+#             break
+#     if not python_bormi:
+#         for t in branch["teachers"]:
+#             if t["subject"]=="Python":
+#                 python_bormi=True
+#                 break
+
+#     if python_bormi:
+#         print(branch["name"]) 

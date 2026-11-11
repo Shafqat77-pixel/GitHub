@@ -61,3 +61,15 @@
 #         for i in pay["students"]:
 #             new.append(i["payment"])
 # print(f"Barcha oquvchilarni jami paymenti: {sum(new)}")
+
+
+
+
+#m6
+# import json
+# with open("test.json") as ptr:
+#     data=json.load(ptr)
+#     for tajriba in data["branches"]:
+#         for i in tajriba["teachers"]:
+#             if i["experience"]>5:
+#                 print(i)

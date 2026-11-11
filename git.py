@@ -115,3 +115,22 @@
 # for key,value in new.items():
 #     if a==value:
 #         print(key)
+
+
+
+
+
+#uyishi2
+# cinema = [
+#     {"title": "Avatar", "genre": "Fantastika", "price": 40000},
+#     {"title": "Sherlock", "genre": "Detektiv", "price": 30000},
+#     {"title": "Oq yo‘l", "genre": "Drama", "price": 25000},
+#     {"title": "Dune", "genre": "Fantastika", "price": 35000}
+# ]
+# f=input("film janrini kiriting: ")
+# lst=[]
+# for janr in cinema:
+#     if f==janr["genre"]:
+#         lst.append(janr)
+# print(lst)
+
